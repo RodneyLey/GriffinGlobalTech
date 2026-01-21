@@ -13,7 +13,7 @@ const meetings = [
     },
     {
         month: "FEBRUARY 2026",
-        image: "images/february.png",
+        image: "images/Coming_soon.png",
         edition: "VALENTINE EDITION",
         dressCode: "Dress dinnerwear",
         date: "28th February, 2026",
@@ -23,7 +23,7 @@ const meetings = [
     },
     {
         month: "MARCH 2026",
-        image: "images/march.png",
+        image: "images/Coming_soon.png",
         edition: "WOMEN'S MONTH EDITION",
         dressCode: "Purple or African wear",
         date: "31st March, 2026",
@@ -33,7 +33,7 @@ const meetings = [
     },
     {
         month: "APRIL 2026",
-        image: "images/april.png",
+        image: "images/Coming_soon.png",
         edition: "EASTER EDITION",
         dressCode: "Dress like Easter",
         date: "30th April, 2026",
@@ -43,7 +43,7 @@ const meetings = [
     },
     {
         month: "MAY 2026",
-        image: "images/may.png",
+        image: "images/Coming_soon.png",
         edition: "MAY EDITION",
         dressCode: "Dress like May",
         date: "31st May, 2026",
@@ -53,7 +53,7 @@ const meetings = [
     },
     {
         month: "JUNE 2026",
-        image: "images/june.png",   
+        image: "images/Coming_soon.png",   
         edition: "JUNE EDITION",
         dressCode: "Dress like June",
         date: "30th June, 2026",
@@ -63,7 +63,7 @@ const meetings = [
     },
     {
         month: "JULY 2026",
-        image:  "images/july.png",   
+        image:  "images/Coming_soon.png",   
         edition: "JULY EDITION",
         dressCode: "Dress like July",
         date: "31st July, 2026",
@@ -73,7 +73,7 @@ const meetings = [
     },
     {
         month: "AUGUST 2026",
-        image: "images/august.png",
+        image: "images/Coming_soon.png",
         edition: "AUGUST EDITION",
         dressCode: "Dress like August",
         date: "31st August, 2026",
@@ -83,7 +83,7 @@ const meetings = [
     },
     {
         month: "SEPTEMBER 2026",
-        image: "images/september.png",
+        image: "images/Coming_soon.png",
         edition: "SEPTEMBER EDITION",
         dressCode: "Dress like September",
         date: "30th September, 2026",
@@ -93,7 +93,7 @@ const meetings = [
     },
     {
         month: "OCTOBER 2026",
-        image: "images/october.png",
+        image: "images/Coming_soon.png",
         edition: "OCTOBER EDITION",
         dressCode: "Dress like October",
         date: "31st October, 2026",
@@ -103,7 +103,7 @@ const meetings = [
     },
     {
         month: "NOVEMBER 2026",
-        image: "images/november.png",
+        image: "images/Coming_soon.png",
         edition: "NOVEMBER EDITION",
         dressCode: "Dress like November",
         date: "30th November, 2026",
@@ -113,7 +113,7 @@ const meetings = [
     },
     {
         month: "DECEMBER 2026",
-        image: "images/december.png",
+        image: "images/Coming_soon.png",
         edition: "DECEMBER EDITION",
         dressCode: "Dress like December",
         date: "31st December, 2026",
@@ -142,7 +142,7 @@ meetings.forEach(item => {
                 <p><span>Location:</span> ${item.location}</p>
                 <p><span>Time:</span> ${item.time}</p>
                 ${item.photos ? `<p><span>Photos Link:</span> <a href="${item.photos}" target="_blank">${item.photos}</a></p>` : ""}
-                ${item.Program ? `<p><span>Program:</span> <a href="${item.Program}" target="_blank">${item.Program}</a></p>` : ""}
+                ${item.Program ? `<p><span>Program Link:</span> <a href="${item.Program}" target="_blank">View Program (PDF)</a></p>` : ""}
             </div>
         </div>
     `;
