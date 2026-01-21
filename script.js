@@ -1,12 +1,14 @@
 const meetings = [
     {
         month: "JANUARY 2026",
-        image: "images/january.png",
+        image: "images/january.jpg",
         edition: "RESET EDITION",
         dressCode: "Dress like your resolutions",
         date: "31st January, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
+        Program: "https://thhllc-my.sharepoint.com/:b:/g/personal/jerioth_waruru_thejitu_com/IQB4nLFFFHYUT69sy7AEOhoMAUIreYZbTAYEFdweeqH3mmU?e=NgY3Cv"
+
         /*photos: "https://forms.gle/3km5Sckmta2mMDHo7"*/
     },
     {
@@ -16,7 +18,7 @@ const meetings = [
         dressCode: "Dress dinnerwear",
         date: "28th February, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -26,7 +28,7 @@ const meetings = [
         dressCode: "Purple or African wear",
         date: "31st March, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -36,7 +38,7 @@ const meetings = [
         dressCode: "Dress like Easter",
         date: "30th April, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -46,7 +48,7 @@ const meetings = [
         dressCode: "Dress like May",
         date: "31st May, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -56,7 +58,7 @@ const meetings = [
         dressCode: "Dress like June",
         date: "30th June, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -66,7 +68,7 @@ const meetings = [
         dressCode: "Dress like July",
         date: "31st July, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -76,7 +78,7 @@ const meetings = [
         dressCode: "Dress like August",
         date: "31st August, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -86,7 +88,7 @@ const meetings = [
         dressCode: "Dress like September",
         date: "30th September, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -96,7 +98,7 @@ const meetings = [
         dressCode: "Dress like October",
         date: "31st October, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -106,7 +108,7 @@ const meetings = [
         dressCode: "Dress like November",
         date: "30th November, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     },
     {
@@ -116,7 +118,7 @@ const meetings = [
         dressCode: "Dress like December",
         date: "31st December, 2026",
         location: "J4 Atrium",
-        time: "2:30 PM – 3:50 PM",
+        time: "2:50 PM – 3:50 PM",
         photos: ""
     }
 ];
@@ -139,7 +141,9 @@ meetings.forEach(item => {
                 <p><span>Date:</span> ${item.date}</p>
                 <p><span>Location:</span> ${item.location}</p>
                 <p><span>Time:</span> ${item.time}</p>
+            
                 ${item.photos ? `<p><span>Photos Link:</span> <a href="${item.photos}" target="_blank">${item.photos}</a></p>` : ""}
+                ${item.Program ? `<p><span>Program Link:</span> <a href="${item.Program}" target="_blank">${item.Program}</a></p>` : ""}
             </div>
         </div>
     `;

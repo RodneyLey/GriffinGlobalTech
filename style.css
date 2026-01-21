@@ -1,17 +1,27 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     margin: 0;
-    background: white;
+    background: #ffff;
     color: #000;
+    position: relative;
+}
+/* Background image layer */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("images/background.jpg") center/cover no-repeat;
+    opacity: 0.18;           /* adjust: 0.05 – 0.15 works best */
+    z-index: -1;
 }
 
 /* Top banner */
 .top-banner {
-    background: linear-gradient(to right, #608a27, #cee0aa);
+    background: linear-gradient(to right, #608a27, #ffff);
     padding: 20px 40px;
 }
 
@@ -34,7 +44,9 @@ body {
 .container {
     max-width: 900px;
     margin: 30px auto;
-    padding: 0 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 12px;
 }
 
 h1 {
@@ -46,7 +58,7 @@ h1 {
 .intro {
     font-size: 14px;
     line-height: 1.6;
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 hr {
