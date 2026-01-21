@@ -4,7 +4,7 @@ const meetings = [
         image: "images/january.jpg",
         edition: "RESET EDITION",
         dressCode: "Dress like your resolutions",
-        date: "31st January, 2026",
+        date: "30th January, 2026",
         location: "J4 Atrium",
         time: "2:50 PM – 3:50 PM",
         Program: "https://thhllc-my.sharepoint.com/:b:/g/personal/jerioth_waruru_thejitu_com/IQB4nLFFFHYUT69sy7AEOhoMAUIreYZbTAYEFdweeqH3mmU?e=NgY3Cv"
@@ -14,9 +14,9 @@ const meetings = [
     {
         month: "FEBRUARY 2026",
         image: "images/Coming_soon.png",
-        edition: "VALENTINE EDITION",
-        dressCode: "Dress dinnerwear",
-        date: "28th February, 2026",
+        edition: "OFFICE CHEMISTRY EDITION",
+        dressCode: "Date Night",
+        date: "27th February, 2026",
         location: "J4 Atrium",
         time: "2:50 PM – 3:50 PM",
         photos: ""
@@ -24,9 +24,9 @@ const meetings = [
     {
         month: "MARCH 2026",
         image: "images/Coming_soon.png",
-        edition: "WOMEN'S MONTH EDITION",
-        dressCode: "Purple or African wear",
-        date: "31st March, 2026",
+        edition: "MOVE THE NEEDLE EDITION - FOCUS: MOMENTUM & OWNERSHIP, Q1 EXECUTION",
+        dressCode: "Black top & blue denim",
+        date: "27th March, 2026",
         location: "J4 Atrium",
         time: "2:50 PM – 3:50 PM",
         photos: ""
