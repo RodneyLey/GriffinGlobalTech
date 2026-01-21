@@ -141,9 +141,8 @@ meetings.forEach(item => {
                 <p><span>Date:</span> ${item.date}</p>
                 <p><span>Location:</span> ${item.location}</p>
                 <p><span>Time:</span> ${item.time}</p>
-            
                 ${item.photos ? `<p><span>Photos Link:</span> <a href="${item.photos}" target="_blank">${item.photos}</a></p>` : ""}
-                ${item.Program ? `<p><span>Program Link:</span> <a href="${item.Program}" target="_blank">${item.Program}</a></p>` : ""}
+                ${item.Program ? `<p><span>Program:</span> <a href="${item.Program}" target="_blank">${item.Program}</a></p>` : ""}
             </div>
         </div>
     `;
