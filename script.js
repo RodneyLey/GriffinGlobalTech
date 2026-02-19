@@ -13,7 +13,7 @@ const meetings = [
     },
     {
         month: "FEBRUARY 2026",
-        image: "images/Coming_soon.png",
+        image: "images/Feb.png",
         edition: "OFFICE CHEMISTRY EDITION",
         dressCode: "Date Night",
         date: "27th February, 2026",
