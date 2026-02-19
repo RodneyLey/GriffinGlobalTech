@@ -19,7 +19,8 @@ const meetings = [
         date: "27th February, 2026",
         location: "J4 Atrium",
         time: "2:50 PM – 3:50 PM",
-        photos: ""
+        photos: "",
+        Program: "https://thhllc-my.sharepoint.com/:b:/g/personal/kenneth_muigai_thejitu_com/IQCFn8r1GgoLQJ5B--gqtaFnATmlSGT_7_jczPdMBo2pYPk?e=BhgP1d"
     },
     {
         month: "MARCH 2026",
